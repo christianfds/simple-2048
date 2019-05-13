@@ -76,7 +76,7 @@ function bgColor(value){
 		return "#edc850";
 	if(value == 1024)
 		return "#edc53f";
-	if(value == 2048)
+	if(value >= 2048)
 		return "#3c3a32";
 }
 
